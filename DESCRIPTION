@@ -1,0 +1,17 @@
+Package: conethemes
+Type: Package
+Title: This Package Provides Some Common Themes for the Moses Cone Brand Identity
+Version: 0.1.0
+Authors@R: c(
+    person(given = "Michael",
+           family = "DeWitt",
+           role = c("aut", "cre"),
+           email = "me.dewitt.jr@gmail.com",
+           comment = c(ORCID = "0000-0001-8940-1967")))
+Maintainer: Michael DeWitt <me.dewitt.jr@gmail.com>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
