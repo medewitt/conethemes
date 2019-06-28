@@ -5,6 +5,8 @@
 
 <!-- badges: start -->
 
+[![Travis build
+status](https://travis-ci.org/medewitt/conethemes.svg?branch=master)](https://travis-ci.org/medewitt/conethemes)
 <!-- badges: end -->
 
 The goal of conethemes is to …

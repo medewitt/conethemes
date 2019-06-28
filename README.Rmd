@@ -15,6 +15,7 @@ knitr::opts_chunk$set(
 # conethemes <img src="man/figures/hexsticker.png" align="right" height="160"/>
 
 <!-- badges: start -->
+[![Travis build status](https://travis-ci.org/medewitt/conethemes.svg?branch=master)](https://travis-ci.org/medewitt/conethemes)
 <!-- badges: end -->
 
 The goal of conethemes is to ...
