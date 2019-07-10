@@ -3,3 +3,7 @@
 ^data-raw$
 ^README\.Rmd$
 ^\.travis\.yml$
+^LICENSE\.md$
+makefile
+make_hex_sticker.R
+docs

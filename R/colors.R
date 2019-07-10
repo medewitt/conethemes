@@ -21,6 +21,10 @@ palette_urbn_main <- c(
   `space gray` = "#5c5859",
   red = "#db2b27")
 
+#' @family urbn palettes
+#' @rdname urbn_palettes
+#' @export
+
 palette_mc_base <- c(
   blue = "#00a2b2"
 

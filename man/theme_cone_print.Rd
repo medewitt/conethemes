@@ -8,9 +8,9 @@ theme_cone_print(base_size = 8.5, base_line_size = 0.5,
   base_rect_size = 0.5)
 }
 \arguments{
-\item{base_line_size, base_rect_size}{base line and rectangle sizes}
+\item{base_size}{base font family and size}
 
-\item{base_family, base_size}{base font family and size}
+\item{base_line_size, base_rect_size}{base line and rectangle sizes}
 }
 \description{
 \code{theme_urban} provides a \link{ggplot2} theme formatted according to the

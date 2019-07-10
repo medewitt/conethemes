@@ -59,6 +59,9 @@ library(dplyr)
 theme_set(theme_bw())
 
 set_cone_defaults(style = "print")
+#> Warning: New theme missing the following elements: axis.ticks.length.x,
+#> axis.ticks.length.x.top, axis.ticks.length.x.bottom, axis.ticks.length.y,
+#> axis.ticks.length.y.left, axis.ticks.length.y.right
 
 ggplot(data = mtcars, mapping = aes(factor(cyl))) +
   geom_bar() + 
@@ -71,21 +74,15 @@ ggplot(data = mtcars, mapping = aes(factor(cyl))) +
 <img src="man/figures/README-unnamed-chunk-3-1.png" width="100%" />
 
 ``` r
-library(grid)
-library(gridExtra)
-#> 
-#> Attaching package: 'gridExtra'
-#> The following object is masked from 'package:dplyr':
-#> 
-#>     combine
-plot <- ggplot(data = mtcars, mapping = aes(factor(cyl))) +
+my_plot <- ggplot(data = mtcars, mapping = aes(factor(cyl))) +
   geom_bar() + 
   scale_y_continuous(expand = expand_scale(mult = c(0, 0.1))) +
   labs(x = "Number of Cylinders",
        y = "Count") +
   remove_ticks()
 
-grid.arrange(plot, cone_logo_text(), ncol = 1, heights = c(30, 1))
+my_plot %>% 
+  add_text_logo()
 ```
 
 <img src="man/figures/README-unnamed-chunk-4-1.png" width="100%" />

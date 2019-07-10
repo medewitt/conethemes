@@ -3,6 +3,7 @@
 \docType{data}
 \name{palette_urbn_main}
 \alias{palette_urbn_main}
+\alias{palette_mc_base}
 \title{Urban Institute palettes updated with Moses Cone Colors}
 \format{An object of class \code{character} of length 8.}
 \source{
@@ -11,6 +12,8 @@ Urban Institute Data Visualization Style Guide
 }
 \usage{
 palette_urbn_main
+
+palette_mc_base
 }
 \description{
 Vectors with hex-color codes that correspond to the color palettes outlined in the Urban Institute Data Visualization Style Guide.
