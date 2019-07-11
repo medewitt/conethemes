@@ -16,7 +16,7 @@ cone_logo_pic <- function(){
 
 #' @title Draw Cone Health Logo
 #' @description Draw Image of Cone
-#'
+#' @param fig plot figure to which to add a logo
 #' @export
 #'
 add_pic_logo <- function(fig){

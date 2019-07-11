@@ -6,6 +6,9 @@
 \usage{
 add_pic_logo(fig)
 }
+\arguments{
+\item{fig}{plot figure to which to add a logo}
+}
 \description{
 Draw Image of Cone
 }
