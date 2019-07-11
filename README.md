@@ -86,3 +86,10 @@ my_plot %>%
 ```
 
 <img src="man/figures/README-unnamed-chunk-4-1.png" width="100%" />
+
+``` r
+my_plot %>% 
+  add_pic_logo()
+```
+
+<img src="man/figures/README-unnamed-chunk-5-1.png" width="100%" />

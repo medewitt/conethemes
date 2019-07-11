@@ -17,8 +17,17 @@
   # check ggplot2 version
   if (unlist(utils::packageVersion("ggplot2"))[1] < 3) {
     packageStartupMessage(
-      "Warning: urbnthemes requires ggplot2 version 3.0.0 or higher."
+      "Warning: conethemes requires ggplot2 version 3.0.0 or higher."
     )
   }
-
 }
+
+# Retrieve Access to files in the package
+pkg_resource <- function(...){
+    system.file( ..., package = 'conethemes', mustWork = TRUE)
+}
+
+
+
+
+

@@ -26,6 +26,7 @@ palette_urbn_main <- c(
 #' @export
 
 palette_mc_base <- c(
-  blue = "#00a2b2"
+  base_blue = "#00a2b2",
+  dark_blue = "#1E4179"
 
 )

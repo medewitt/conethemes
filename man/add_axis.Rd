@@ -2,7 +2,7 @@
 % Please edit documentation in R/add_axis.R
 \name{add_axis}
 \alias{add_axis}
-\title{The Urban Institute \link{ggplot2} theme}
+\title{The Cone Health  \link{ggplot2} theme}
 \usage{
 add_axis(axis = "y")
 }

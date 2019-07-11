@@ -73,4 +73,8 @@ my_plot %>%
 ```
 
 
+```{r}
+my_plot %>% 
+  add_pic_logo()
+```
 
