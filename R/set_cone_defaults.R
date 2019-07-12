@@ -1,6 +1,6 @@
-#' The Urban Institute [ggplot2] theme
+#' The Cone Health  [ggplot2] theme
 #'
-#' \code{set_urbn_defaults} provides a [ggplot2] theme formatted according to the
+#' \code{set_cone_defaults} provides a [ggplot2] theme formatted according to the
 #' Urban Institute style guide, with sensible defaults.
 #'
 #' @param style The default theme style for the R session. "print" or "map".

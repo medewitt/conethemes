@@ -66,7 +66,7 @@ scale_color_gradientn <- function(...,
                             scales::gradient_n_pal(colours, values, space), na.value = na.value, guide = guide, ...)
 }
 
-#' Continuous fill scale that aligns with the Urban Institute style
+#' Continuous fill scale that aligns with the Cone Health style
 #'
 #' @md
 #' @param colours vector of colours
@@ -79,7 +79,7 @@ scale_color_gradientn <- function(...,
 #' @export
 scale_colour_gradientn <- scale_color_gradientn
 
-#' Continuous fill scale that aligns with the Urban Institute style
+#' Continuous fill scale that aligns with the Cone Health style
 #'
 #' @md
 #' @param colours vector of colours

@@ -1,4 +1,4 @@
-#' The Urban Institute [ggplot2] theme
+#' The Cone Health  [ggplot2] theme
 #'
 #' Removes axes and axes labels
 #'

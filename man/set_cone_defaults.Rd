@@ -2,7 +2,7 @@
 % Please edit documentation in R/set_cone_defaults.R
 \name{set_cone_defaults}
 \alias{set_cone_defaults}
-\title{The Urban Institute \link{ggplot2} theme}
+\title{The Cone Health  \link{ggplot2} theme}
 \usage{
 set_cone_defaults(style = "print")
 }
@@ -10,6 +10,6 @@ set_cone_defaults(style = "print")
 \item{style}{The default theme style for the R session. "print" or "map".}
 }
 \description{
-\code{set_urbn_defaults} provides a \link{ggplot2} theme formatted according to the
+\code{set_cone_defaults} provides a \link{ggplot2} theme formatted according to the
 Urban Institute style guide, with sensible defaults.
 }

@@ -1,4 +1,4 @@
-#' The Urban Institute [ggplot2] theme
+#' The Cone Health  [ggplot2] theme
 #'
 #' Removes tick marks from all axes
 #'

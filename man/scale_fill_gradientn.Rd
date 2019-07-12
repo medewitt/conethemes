@@ -2,7 +2,7 @@
 % Please edit documentation in R/scales.R
 \name{scale_fill_gradientn}
 \alias{scale_fill_gradientn}
-\title{Continuous fill scale that aligns with the Urban Institute style}
+\title{Continuous fill scale that aligns with the Cone Health style}
 \usage{
 scale_fill_gradientn(..., colours = c("#CFE8F3", "#A2D4EC", "#73BFE2",
   "#46ABDB", "#00a2b2", "#12719E", "#0A4C6A", "#062635"),
@@ -26,5 +26,5 @@ scale_fill_gradientn(..., colours = c("#CFE8F3", "#A2D4EC", "#73BFE2",
 \item{guide}{legend representation of scale}
 }
 \description{
-Continuous fill scale that aligns with the Urban Institute style
+Continuous fill scale that aligns with the Cone Health style
 }
