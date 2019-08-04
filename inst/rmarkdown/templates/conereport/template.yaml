@@ -1,0 +1,4 @@
+name: Enterprise Analytics Report Template
+description: >
+ Template for reports from the EA Department
+create_dir: true

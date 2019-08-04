@@ -1,0 +1,26 @@
+---
+header-includes:
+- \input{fact_sheet_preamble.tex}
+fontsize: 10pt
+output: pdf_document
+sansfont: Lato
+font:     Lato
+geometry: "left=1in,right=1in,top=0.35in,bottom=0.6in"
+urlcolor: #169d62
+---
+
+\raggedright
+
+```{r rmarkdown-setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_chunk$set(dev = "cairo_pdf")
+options(knitr.kable.NA = "")
+options(kableExtra.latex.load_packages = FALSE)
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+library(urbnthemes)
+set_urbn_defaults(style = "print")
+```
