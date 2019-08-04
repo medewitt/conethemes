@@ -28,7 +28,7 @@
 \usepackage{amssymb}          % for itemized list styles
 
 % document setup
-\definecolor{urbnblue}{HTML}{1696D2}    % defines the Urban Institute blue color
+\definecolor{urbnblue}{HTML}{00a2b2}    % defines the Urban Institute blue color
 \usepackage{enumitem}                   % bullet alignment
 \setlist[2]{nosep}                      % sets the itemsep and parsep for all level two lists to 0
 \setenumerate{nosep}                    % sets no itemsep for enumerate lists only
@@ -49,7 +49,7 @@
 \newcommand{\urbnlogo}[0]{
   \begin{figure}
     \hspace{-0.12in}
-    \includegraphics[width=1.5in]{cone_logo.svg}
+    \includegraphics[width=1.5in]{cone_logo.pdf}
     \label{fig:boat1}
   \end{figure}
 }
@@ -61,7 +61,7 @@
   \begin{minipage}{.5\textwidth}
     \centering
     \hspace{-0.12in}
-    \includegraphics[width=1.5in,left]{cone_logo.svg}
+    \includegraphics[width=1.5in,left]{cone_logo.pdf}
     \label{fig:test1}
   \end{minipage}%
   \begin{minipage}{.5\textwidth}
@@ -80,15 +80,15 @@
   \begin{tikzpicture}[remember picture, overlay]
     \draw
       node[anchor=south west, minimum height=0.5in, minimum width=8.5in, text width=8in] at ($(current page.south west) + (0.75in,0.13in)$)
-      {\color{gray}Urban Institute \space
+      {\color{gray}Cone Health \space
       \color{urbnblue}$\blacksquare$ \space
       \color{gray}500 L'Enfant Plaza \space
       \color{urbnblue}$\blacksquare$ \space
-      \color{gray}Washington, DC 20024 \space
+      \color{gray}Greensboro, NC \space
       \color{urbnblue}$\blacksquare$ \space
       \color{gray}202.833.7200 \space
       \color{urbnblue}$\blacksquare$ \space
-      \textcolor{urbnblue}{www.urban.org}};
+      \textcolor{urbnblue}{www.conehealth.com}};
   \end{tikzpicture}
 }
 
