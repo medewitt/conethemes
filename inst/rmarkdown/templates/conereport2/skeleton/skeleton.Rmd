@@ -1,0 +1,56 @@
+---
+title: "Untitled"
+#subtitle: "A Detailed Look"
+author: "Michael DeWitt"
+date: "8/4/2019"
+sansfont: Fira Sans
+font:     Lato
+output: 
+  pdf_document:
+    template: template.tex
+    includes:
+      in_header: cone_header.tex
+      #before_body: cone-prefix.tex
+    #  after_body: cone-suffix.tex
+fontsize: 11pt
+geometry: "left=1in,right=1in,top=0.35in,bottom=0.6in"
+abstract: "This is the executive summary for this report. I wrote it to be a little long. I hope that it is actuall working correctly. We will see."
+urlcolor: #169d62
+---
+
+```{r rmarkdown-setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_chunk$set(dev = "cairo_pdf")
+options(knitr.kable.NA = "")
+options(kableExtra.latex.load_packages = FALSE)
+
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+library(conethemes)
+
+set_cone_defaults(style = "print")
+```
+
+\raggedright
+\contactinfo
+# Header 1
+
+Something written <https://michaeldewitt.jr.com>
+
+```{r}
+
+x <- 2+2
+
+```
+
+## Another
+
+```{r fig.cap="Test Figure"}
+plot(mtcars$mpg)
+```
+
+\clearpage
+
