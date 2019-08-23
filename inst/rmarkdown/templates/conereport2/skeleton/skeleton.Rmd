@@ -48,6 +48,10 @@ x <- 2+2
 
 ## Another
 
+\begin{itemize}
+\item{This is a test}
+\end{itemize}
+
 ```{r fig.cap="Test Figure"}
 plot(mtcars$mpg)
 ```
