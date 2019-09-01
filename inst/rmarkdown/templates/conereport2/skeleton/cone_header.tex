@@ -1,6 +1,6 @@
-\usepackage{titling}
-\pretitle{\raggedright\LARGE\includegraphics[width=6cm]{cone_logo.pdf}\\[\bigskipamount]\begin{center}}
-\posttitle{\end{center}}
+%\usepackage{titling}
+%\pretitle{\raggedright\LARGE\includegraphics[width=6cm]{cone_logo.pdf}\\[\bigskipamount]\begin{center}}
+%\posttitle{\end{center}}
 
 %\definecolor{coneblue}{HTML}{00a2b2}
 %\usepackage[svgnames]{xcolor}
@@ -94,14 +94,14 @@
   \thispagestyle{empty}
   \begin{tikzpicture}[remember picture, overlay]
     \draw
-      node[anchor=south west, minimum height=0.5in, minimum width=8.5in, text width=8in] at ($(current page.south west) + (0.75in,0.13in)$)
+      node[anchor=south west, minimum height=0.5in, minimum width=8.5in, text width=8in] at ($(current page.south west) + (0.5in,0.13in)$)
       {\color{gray}Cone Health \space
       \color{urbnblue}$\blacksquare$ \space
-      \color{gray}500 L'Enfant Plaza \space
+      \color{gray}706 Green Valley Road\space
       \color{urbnblue}$\blacksquare$ \space
-      \color{gray}Greensboro, NC \space
+      \color{gray}Greensboro, NC 27408\space
       \color{urbnblue}$\blacksquare$ \space
-      \color{gray}202.833.7200 \space
+      \color{gray}336.422.7771 \space
       \color{urbnblue}$\blacksquare$ \space
       \textcolor{urbnblue}{www.conehealth.com}};
   \end{tikzpicture}
@@ -114,66 +114,8 @@
   \end{center}
 }
 
-% subtitles (12pt font)
-\newcommand{\urbnsubtitle}[1]{
-  \begin{center}
-    \Large{\textcolor{urbnblue}{#1}}
-    \vspace{0.25in}
-  \end{center}
-}
 
-% authors (11pt font)
-\newcommand{\urbnauthors}[1]{
-  \begin{center}
-    \textit{\large{#1}}
-    \vspace{0.25in}
-  \end{center}
-}
 
-% heading 1
-\newcommand{\urbnheadingone}[1]{
-  \textbf{\LARGE{\\} \large{#1}}
-}
-
-% heading 2
-\newcommand{\urbnheadingtwo}[1]{
-  \textbf{\textcolor{urbnblue}{#1}}
-}
-
-% figure label
-\newcommand{\urbnfigurenumber}[1]{
-  \textcolor{urbnblue}{\tiny{\\} \normalsize{FIGURE #1 \\}}
-}
-
-% figure title
-\newcommand{\urbnfiguretitle}[1]{
-  \textbf{\normalsize{#1} \\}
-}
-
-% figure source
-\newcommand{\urbnsource}[1]{
-  \textbf{\footnotesize{#1}} \break
-}
-
-% figure note
-\newcommand{\urbnnote}[1]{
-  \textbf{\footnotesize{#1}} \break
-}
-
-% table label
-\newcommand{\urbntablenumber}[1]{
-  \textcolor{urbnblue}{\tiny{\\} \normalsize{TABLE #1 \\}}
-}
-
-% table title
-\newcommand{\urbntabletitle}[1]{
-  \textbf{\normalsize{#1} \\}
-}
-
-% table sub title
-\newcommand{\urbntablesubtitle}[1]{
-  \textit{\normalsize{#1} \\}
-}
 
 % bullet points
 \renewcommand{\labelitemi}{\color{urbnblue}\tiny$\blacksquare$}   % blue square
@@ -195,25 +137,6 @@
 \setlength{\parskip}{0pt}
 \setlength{\parsep}{0pt}}
 {\end{enumerate}}
-
-% boiler plate
-\newcommand{\urbnboilerplate}[3]{
-  \thispagestyle{empty}
-
-  \begin{tikzpicture}[remember picture, overlay]
-    % horizontal line
-    \draw (current page.south west) + (1in,1.25in) -- ($(current page.south east) + (-1in, 1.25in)$);
-    % boilerplat language
-    \draw
-      node[align=left, anchor=south west, minimum height=0.5in, minimum width=8.5in, text width=6.5in] at ($(current page.south west) + (0in,0.38in)$)
-      {
-      \small{This fact sheet was funded by #1. The views expressed are those of the author/authors and should not be attributed to the Urban Institute, its trustees, or its funders. Further information on the Urban Institute’s funding principles is available at \href{https://www.urban.org/aboutus/our-funding/funding-principles}{urban.org/fundingprinciples.}
-
-
-      Copyright © #2 #3. Urban Institute. Permission is granted for reproduction of this file, with attribution to the Urban Institute.}
-      };
-      \end{tikzpicture}
-}
 
 % eliminates top border line for the table
 \def\toprule{}
